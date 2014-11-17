@@ -28,7 +28,7 @@ difference(){
 	}
 
 	translate([0,-10,0])
-	cube(size=[56,45,200],center=true);
+	cube(size=[50,45,200],center=true);
 /*
 	for(x=[-24:6:24]){
 	for(y=[-24:6:12]){

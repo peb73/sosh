@@ -7,7 +7,7 @@ module phone()
 	union(){
 		color("silver") minkowski()
 		{
-			cube(size=[62,125,8], center=true);
+			cube(size=[61,125,8], center=true);
 			//cylinder(r=1,h=1);
 			sphere(r=1,$fn=8);
 		}
