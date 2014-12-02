@@ -19,16 +19,17 @@ difference(){
 		minkowski()
 		{
 			cube(size=[60,125,8], center=true);
-			//cylinder(r=1,h=1);
 			sphere(r=2);
 		}
 		color("red")
 		translate([0,(125+20)/2,0])
-		cube(size=[15,20,8],center=true);	
+		cube(size=[15,50,10],center=true);	
 	}
 
-	translate([0,-10,0])
-	cube(size=[50,45,200],center=true);
+	translate([0,-10,((height-10)/2)+10])
+	cube(size=[50,45,height-10],center=true);
+	translate([0,-6.5,5])
+	cube(size=[50,38,11],center=true);
 /*
 	for(x=[-24:6:24]){
 	for(y=[-24:6:12]){
